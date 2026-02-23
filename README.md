@@ -1,5 +1,5 @@
 README
-######################################################################################################################
+################################################
  Made for Linux Debian Distributions (OS-Ubuntu)                                                                          
                                                                                                                           
  This script is for people like me, too many times I have input the same 5 update commands daily.                         
@@ -13,5 +13,5 @@ README
  - Prints "Script Complete" when finished                                                                                 
                                                                                                                           
  Each stage of the script is easily displayed in green to help view any changes made during updates and cleaned files.    
-######################################################################################################################
+################################################
 README

@@ -3,10 +3,10 @@
 
 ############## Bash Script For Updating Debian Linux ###############
 ####################################################################
-# bin/bash - Runs Only If Located In Specified Path		   #
+# bin/bash - Runs Only If Located In Specified Path		             #
 # usr/bin/env bash - Any Bash In User Path (Respects Custom Paths) #
 # && Allows Run Text To Only Display Printf If The Command Runs    #
-# sha256sum update.sh > update.sh.sha256			   #
+# sha256sum update.sh > update.sh.sha256			                     #
 ####################################################################
 
 # Checking Integrity of File Before Updating
@@ -41,9 +41,9 @@ printf '\e[32m^^Auto-Clean^^\e[0m\n'
 printf '\e[35m[-------------------------------Script Complete--------------------------------]\e[0m\n'
 
 ##################################
-# Printf > Echo			 #
+# Printf > Echo			             #
 # Printf = Versatile & Control   #
-# Echo = Bash & Control		 #
+# Echo = Bash & Control		       #
 #       ##########################
 #-Brady #
 #########

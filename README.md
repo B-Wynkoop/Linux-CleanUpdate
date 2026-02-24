@@ -18,18 +18,23 @@ This script is for people like me, too many times I have input the same 5 update
  Each stage of the script is displayed green in the terminal to help view any changes made during the process.
 
 ## Usage
+| Allows Privileges to Execute Script
 ```bash
 chmod +x update.sh
 ```
+| Creates SHA256 File
 ```bash
 sha256sum update.sh > update.sh.sha256
 ```
+| Run Command (Default File Path (~))
 ```bash
 ./update.sh
 ```
 ## NOTE:
-- Debian Distro Required ( Ubuntu, Debian, Kali, etc. )
+- Debian Distro Required (Ubuntu, Debian, Kali, etc.)
 - Script Requires Sudo Privileges
 - SHA256SUM Verification Added
 
-The SHA256SUM command to create the verification file is provided ( sha256sum update.sh > update.sh.sha256 ). If local changes are made to the script ( update.sh ) you must update the SHA256SUM for script verification, otherwise the user would need to comment the verification block located at the top of the script to prevent error ( Not Recommended ).
+The SHA256SUM command to create the verification file is provided (sha256sum update.sh > update.sh.sha256).
+If local changes are made to the script (update.sh) you must update the SHA256SUM for script verification.
+Alternativley the user could comment out the verification block (located at the top of the script) to prevent error (Not Recommended).

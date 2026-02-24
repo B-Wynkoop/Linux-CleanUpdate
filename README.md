@@ -1,4 +1,4 @@
-# Linux Update Script
+# Linux Update & Clean Script
 ## Overview
 Made for Linux Debian Distributions (OS-Ubuntu)
  

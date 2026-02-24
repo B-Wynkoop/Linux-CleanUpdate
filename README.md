@@ -9,6 +9,7 @@ This script is for people like me, too many times I have input the same 5 update
  - Updates package list | Prints complete text
  - Installs available package updates from list | Prints complete text
  - Updates available snap packages | Prints complete text
+ - Updates local & system flatpaks | Prints complete text
  - Cleans old packages and configurations | Prints complete text
  - Cleans old system packages | It will not clean important system files | Prints complete text
  - Prints "Script Complete" when finished

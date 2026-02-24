@@ -37,8 +37,8 @@ printf '\e[32m^^Auto-Remove^^\e[0m\n'
 sudo apt autoclean &&
 printf '\e[32m^^Auto-Clean^^\e[0m\n'
 
-# Green Message of Script Completion
-printf '\e[35m[---------------------------Personal Script Complete---------------------------]\e[0m\n'
+# Purple Message of Script Completion
+printf '\e[35m[-------------------------------Script Complete--------------------------------]\e[0m\n'
 
 ##################################
 # Printf > Echo			 #

@@ -25,6 +25,10 @@ printf '\e[32m^^Upgrades^^\e[0m\n'
 sudo snap refresh &&
 printf '\e[32m^^Snap-Updates^^\e[0m\n'
 
+# Updates Available System & User FlatPak Packages & Prints Run Text In Green
+sudo flatpak update --system -y && flatpak update --user -y &&
+printf '\e[32m^^Flatpak-Updates^^\e[0m\n'
+
 # Removes Unused Packages and Configurations & Prints Run Text In Green
 sudo apt autoremove --purge &&
 printf '\e[32m^^Auto-Remove^^\e[0m\n'

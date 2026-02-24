@@ -19,6 +19,11 @@ This script is for people like me, too many times I have input the same 5 update
 ## Usage
 ```bash
 chmod +x update.sh
+```
+```bash
+sha256sum update.sh > update.sh.sha256
+```
+```bash
 ./update.sh
 ```
 ## NOTE:

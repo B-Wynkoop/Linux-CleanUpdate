@@ -3,7 +3,7 @@
 
 Make updating debian linux systems easier with a single command that updates and cleans old system files as well as leftover configuration files!
 
-This script is for people like me, too many times I have input the same 5 update commands daily.
+This script is for people like me, too many times I have input the same 6 update commands daily.
  
  ## Features
  - Updates package list | Prints complete text

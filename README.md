@@ -35,6 +35,6 @@ sha256sum update.sh > update.sh.sha256
 - Script Requires Sudo Privileges
 - SHA256SUM Verification Added
 
-The SHA256SUM command to create the verification file is provided (sha256sum update.sh > update.sh.sha256).
+The SHA256SUM command creates the verification file (sha256sum update.sh > update.sh.sha256).
 If local changes are made to the script (update.sh) you must update the SHA256SUM for script verification.
 Alternativley the user could comment out the verification block (located at the top of the script) to prevent error (Not Recommended).
